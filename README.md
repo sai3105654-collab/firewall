@@ -66,7 +66,8 @@ I opened a terminal on my Ubuntu VM and ran the command I had used previously in
 
 #command:__telnet <my_windows_ip> 23__
 
-<img width="1898" height="737" alt="Pasted image (3)" src="https://github.com/user-attachments/assets/2719d64e-e208-4430-9d45-ebe74e81b86c" />
+<img width="1898" height="737" alt="image" src="https://github.com/user-attachments/assets/8e1ba74a-3c9c-4db9-8f0c-3b8a05a95dd2" />
+
 
 **Why it Worked (and still failed): This test was the key to solving my problem. It showed that my connection was failing for a deeper reason than just the firewall. I learned that for a connection to be successful, a service must be running on the port to listen for the connection. My test showed that even though I had tried to fix it, there was no service on my Windows machine to receive the connection.**
 
