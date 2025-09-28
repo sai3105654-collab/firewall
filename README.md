@@ -100,9 +100,8 @@ __Sudo ufw deny 23/tcp__
 
 Locally :
 
-__Namp -P 23 127.0.0.1__
+__Nmap -P 23 127.0.0.1__
 
-<img width="1898" height="737" alt="image" src="https://github.com/user-attachments/assets/0d6add31-32e0-45df-826b-dbed5f4cbc45" />
 
 
 *Remotely in windows* :
