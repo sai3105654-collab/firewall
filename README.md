@@ -102,20 +102,21 @@ Locally :
 
 __Namp -P 23 127.0.0.1__
 
+<img width="1898" height="737" alt="image" src="https://github.com/user-attachments/assets/0d6add31-32e0-45df-826b-dbed5f4cbc45" />
+
+
 *Remotely in windows* :
  
  Opening in powershell:
 
 __Test-NetConnection -Computername linux ipaddress -port 23__
+<img width="1437" height="524" alt="image" src="https://github.com/user-attachments/assets/c1d992c1-db3b-4cd0-9d47-63fcd8f2960a" />
+
 
 *Restoring to its original state:*
 
 
 __Sudo ufw  reset__
-   <img width="1898" height="737" alt="image" src="https://github.com/user-attachments/assets/e5ce202a-68bc-4956-aa8f-1653fe2edec5" />
-
-   ![WhatsApp Image 2025-09-28 at 12 12 35_f6740c6f](https://github.com/user-attachments/assets/82ff49e3-ef7c-4e4c-b325-f2c94e74ea4e)
-
 
    <img width="1843" height="523" alt="Pasted image (4)" src="https://github.com/user-attachments/assets/44597998-62a3-4dbb-9354-a8197bdeec6b" />
 
