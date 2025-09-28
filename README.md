@@ -85,3 +85,11 @@ I opened a terminal on my Ubuntu VM and ran the command I had used previously in
 
 
 
+   <img width="1898" height="737" alt="image" src="https://github.com/user-attachments/assets/e5ce202a-68bc-4956-aa8f-1653fe2edec5" />
+
+   ![WhatsApp Image 2025-09-28 at 12 12 35_f6740c6f](https://github.com/user-attachments/assets/82ff49e3-ef7c-4e4c-b325-f2c94e74ea4e)
+
+
+
+
+
