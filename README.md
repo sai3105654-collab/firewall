@@ -169,11 +169,29 @@ or
 __sudo ufw reset__
 
 __sudo apt purge netcat-traditional__
+
 __sudo apt purge openssg-server__
+
 __sudo systemctl stop ssh__
+
 __sudo apt autoremove__
 
 
+A firewall acts as a security gatekeeper for a network. It inspects every piece of incoming and outgoing network traffic and decides whether to let it pass or to block it, based on a set of pre-defined rules.
+
+Here is a summary of how a firewall filters traffic:
+
+Rule-Based Filtering: The firewall's primary function is to enforce a set of rules. These rules are instructions that tell the firewall what to do with different types of traffic (e.g., "allow" or "deny").
+
+Inspection Criteria: A firewall filters traffic by inspecting key pieces of information within each data packet. The most common criteria include:
+
+Source and Destination IP Address: Where the traffic is coming from and where it is going.
+
+Port Number: The specific service or application the traffic is intended for (e.g., port 22 for SSH, port 80 for web traffic).
+
+Protocol: The type of protocol being used (e.g., TCP or UDP).
+
+Default Policy: Most firewalls operate with a "default deny" policy for incoming traffic. This means that if there is no specific rule allowing a connection, the firewall will automatically block it. The "allow" rules you create act as exceptions to this default policy.
 
 
 
