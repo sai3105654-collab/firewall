@@ -82,12 +82,42 @@ I opened a terminal on my Ubuntu VM and ran the command I had used previously in
 
    <img width="547" height="502" alt="image" src="https://github.com/user-attachments/assets/ed666a3b-a18d-499a-9294-eaf0286f7d6a" />
 
+**UFW ON LINUX**
+
+*Open firewall configuration tool*
+
+*open a terminal 
+*listing current firewall rules 
+  __Sudo ufw status__ 
+__Sudo ufw status numbered__
+
+°Add a rule to block inbound traffic on 23 telnet 
+
+__Sudo ufw deny 23/tcp__
+
+°Testing the rule by attempting to connect to port locally and remotely 
+
+Locally :
+
+__Namp -P 23 127.0.0.1__
+
+*Remotely in windows* :
+ 
+ Opening in powershell:
+
+__Test-NetConnection -Computername linux ipaddress -port 23__
+
+*Restoring to its original state:*
 
 
-
+__Sudo ufw  reset__
    <img width="1898" height="737" alt="image" src="https://github.com/user-attachments/assets/e5ce202a-68bc-4956-aa8f-1653fe2edec5" />
 
    ![WhatsApp Image 2025-09-28 at 12 12 35_f6740c6f](https://github.com/user-attachments/assets/82ff49e3-ef7c-4e4c-b325-f2c94e74ea4e)
+
+
+   <img width="1843" height="523" alt="Pasted image (4)" src="https://github.com/user-attachments/assets/44597998-62a3-4dbb-9354-a8197bdeec6b" />
+
 
 
 
