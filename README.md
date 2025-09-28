@@ -121,6 +121,59 @@ __Sudo ufw  reset__
    <img width="1843" height="523" alt="Pasted image (4)" src="https://github.com/user-attachments/assets/44597998-62a3-4dbb-9354-a8197bdeec6b" />
 
 
+**ADDING RULE TO ALLOW SSH(PORT22)**:
+
+ __IMPORTANT__ before enable the firewall for the 1st time ,so that allowing ssh traffic to preventing locking myself out of my server
+
+*TO allow ssh,*:
+
+##command##
+
+__sudo ufw allow ssh__
+
+*now enabling firewall*
+
+__sudo ufw enable__
+
+__sudo ufw status numbered__
+
+<img width="1854" height="891" alt="Screenshot from 2025-09-27 12-29-00" src="https://github.com/user-attachments/assets/ea1d035b-4e85-4a47-9248-999e5cd1c9fc" />
+
+*checking ssh server status*:
+
+__sudo systemctl status ssh__
+<img width="1891" height="589" alt="Screenshot from 2025-09-28 07-41-04" src="https://github.com/user-attachments/assets/798d8318-f873-43fd-acf2-0e27856f5f5c" />
+
+
+__sudo apt install netcat-traditional__
+
+*sudo test local connection*
+
+__ssh localhost__
+<img width="869" height="459" alt="image" src="https://github.com/user-attachments/assets/662c7ee1-47a7-4cc5-baac-c322a0a6ef4f" />
+
+
+*sudo test remote connection*
+
+__Test-NetConnection -ComputerName linux ipadd -Port 22__
+
+<img width="1484" height="759" alt="image" src="https://github.com/user-attachments/assets/5425f482-c033-4ffc-bf7f-3f4ea2a49c53" />
+
+
+*RESTORING TO ORIGINAL STATE:*
+
+__sudo ufw delete 1__
+__sudo ufw disable__
+
+or 
+__sudo ufw reset__
+
+__sudo apt purge netcat-traditional__
+__sudo apt purge openssg-server__
+__sudo systemctl stop ssh__
+__sudo apt autoremove__
+
+
 
 
 
