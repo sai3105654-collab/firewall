@@ -97,6 +97,7 @@ __Sudo ufw status numbered__
 __Sudo ufw deny 23/tcp__
 
 °Testing the rule by attempting to connect to port locally and remotely 
+<img width="873" height="800" alt="Pasted image (7)" src="https://github.com/user-attachments/assets/d9d265b5-edea-4985-a441-866c96d3766f" />
 
 Locally :
 
